@@ -14,7 +14,13 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display&display=swap" rel="stylesheet">  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -69,12 +75,14 @@
         <div class="carousel-item active" style="background-image: url(assets/img/slide/bg1.jpg)">
           <div class="carousel-container">
             <div class="container">
+              <div class="back-c py-3">
                  <h2 class="animate__animated animate__fadeInDown"><span class="text-main">The Primate Portal</span></h2>
                  <h2 class="animate__animated animate__fadeInDown"> 
                  Internship Program</h2>
               <p class="animate__animated animate__fadeInUp bigger-text">Carnegie Mellon University and Rochester University of Technology
 </p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Explore</a>
+</div>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto mt-3">Explore</a>
             </div>
           </div>
         </div>
@@ -83,13 +91,14 @@
         <div class="carousel-item" style="background-image: url(assets/img/slide/bg2.jpg)">
           <div class="carousel-container">
             <div class="container">
+              <div class="back-c py-3">
                  <!-- <h2 class="animate__animated animate__fadeInDown"><span class="text-main">Hygiene Heroes</span></h2> -->
                  <h2 class="animate__animated animate__fadeInDown"> 
                  A collaboration project by a group of research lab
 scientists studying the <strong>origin of thought</strong>.</h2>
-  
+  </div>
 
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Explore</a>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto mt-3">Explore</a>
             </div>
           </div>
         </div>
@@ -153,6 +162,65 @@ scientists studying the <strong>origin of thought</strong>.</h2>
 
       </div>
     </section>
+     <section id="about" class="about">
+      <div class="container">
+
+        <div id="check" class="section-title" data-aos="fade-up">
+          <h2 class="bigger-text2 text-black">Deliverables</h2>
+        </div>
+
+        <div class="row content">
+                    <div class="" data-aos="fade-up" data-aos-delay="150">
+            <p class="text-ali pe-4 mt-2">
+    A joint project with <strong> Carnegie Mellon University </strong> and <strong> Rochester University of Technology </strong> to find the origin of thoughts. The Primate Portal research lab works with Seneca Park Zoo in Rochester, New York, making use of touchscreen devices and CCTV to study and record baboons' behavior.
+            </p>
+            <p class="text-ali pe-4">
+            Research related data and raw recorded materials produced by the lab is free and accessible through their official website.
+            </p>
+          </div>
+           </div>
+           <div class="row content px-5 py-5">
+
+            <div id="carouselExampleIndicators" class="carousel slide deliverable" data-ride="carousel" data-aos="fade-up" data-aos-delay="300">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                      <div class="carousel-item active">
+                      <img src="..." alt="..." class="myim image-fluid">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>...</h5>
+                        <p>...</p>
+                      </div>
+                    </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="..." alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="..." alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+
+
+
+</div>
+
+       
+
+      </div>
+    </section>
     <section id="services" class="services bg-diff">
       <div class="container">
 
@@ -165,7 +233,7 @@ scientists studying the <strong>origin of thought</strong>.</h2>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-clipboard-data"></i></div>
-              <h4><a href="">Bio / Psychology Data Research</a></h4>
+              <h4><a href="">Data Science & Software Development</a></h4>
               <p>Utilizing data from The Primate Portal to analyze whether there is a correlation between learned strategies and working memory.</p>
             </div>
           </div>
@@ -173,7 +241,7 @@ scientists studying the <strong>origin of thought</strong>.</h2>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-pen-nib"></i></div>
-              <h4><a href="">Design & Animation</a></h4>
+              <h4><a href="">UI/UX Design & Web Development</a></h4>
               <p>Create the content designs and artwork for the Primate Portal homepage, game applications.</p>
             </div>
           </div>
@@ -181,7 +249,7 @@ scientists studying the <strong>origin of thought</strong>.</h2>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
-              <h4><a href="">Full-stack App Dev.</a></h4>
+              <h4><a href="">Full-stack App Development</a></h4>
               <p>Development of game application to compare cognitive abilities between human children aged 5 to 8 and the baboons.</p>
             </div>
           </div>
@@ -189,7 +257,7 @@ scientists studying the <strong>origin of thought</strong>.</h2>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-gamepad"></i></div>
-              <h4><a href="">Game Design & Game Dev.</a></h4>
+              <h4><a href="">Game Development with Reinforcement Learning</a></h4>
               <p>Design and develop games to be used at the lab study on the baboons.</p>
             </div>
           </div>
@@ -202,13 +270,13 @@ scientists studying the <strong>origin of thought</strong>.</h2>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+<!--           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-microchip"></i></div>
               <h4><a href="">Reinforcement Learning</a></h4>
               <p>Games that automatically adjust its level of difficulty based on baboons performances.</p>
             </div>
-          </div>
+          </div> -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-robot"></i></div>
@@ -217,22 +285,22 @@ scientists studying the <strong>origin of thought</strong>.</h2>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+<!--           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
               <h4><a href="">Software Dev.</a></h4>
               <p>Develop the platforms used for data collection and data analysis at the lab.</p>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+<!--           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="fa-brands fa-uikit"></i></div>
               <h4><a href="">UI/UX & Web Dev.</a></h4>
               <p>Utilize UI/UX concepts and understanding in the development stages for the various applications released by The Primary Portal.</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </section>
@@ -246,7 +314,7 @@ scientists studying the <strong>origin of thought</strong>.</h2>
           <h2 class="bigger-text2 text-black">Team</h2>
         </div>
 <div class="row" >
-                    <h3  data-aos="fade-right" data-aos-delay="300" class="team-title bigger-text3"> <strong>Bio/Psychology</strong></h3>
+                    <h3  data-aos="fade-right" data-aos-delay="300" class="team-title bigger-text3"> <strong>Data Science & Software Development</strong></h3>
       
 
       </div>
@@ -271,45 +339,45 @@ scientists studying the <strong>origin of thought</strong>.</h2>
 
               <div class="carousel-inner">
                 <div class="carousel-item active">
-             <img src="assets/img/rb2.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption mt-5 d-none d-md-block">
+             <img src="assets/img/bio1.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption mt-5 d-none d-md-block">
                   </div>
                 </div>
                 <div class="carousel-item">
-             <img src="assets/img/rb3.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
+             <img src="assets/img/bio2.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
                   </div>
                 </div>
-                                <div class="carousel-item">
+<!--                                 <div class="carousel-item">
              <img src="assets/img/robo1.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
                   </div>
-                </div>
+                </div> -->
               </div>
 
             </div>
           </div>
 
       </div> 
-            <div class="row mt-3 features" id="features" >
+            <div class="row mt-3 features" id="features"  >
                           <h3 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4">Highlights</h3>
                           <h5 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4 ms-2">Tools</h5>
-                <div class="col-lg-3 col-md-4 ">
+                <div class="col-lg-3 col-md-4 "data-aos="fade-right" data-aos-delay="500">
                   <div class="icon-box">
                     <i class="fa-brands fa-python"></i>
                     <h3><a href="">Python</a></h3>
                   </div>
                 </div>
-              <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
                 <div class="icon-box">
                   <i class="fa-solid fa-clone"></i>
                   <h3><a href="">Numpy</a></h3>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
                 <div class="icon-box">
                   <i class="fa-solid fa-file-csv"></i>
                   <h3><a href="">Pandas</a></h3>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+              <div class="col-lg-3 col-md-4 mt-4 mt-lg-0"data-aos="fade-right" data-aos-delay="500">
                 <div class="icon-box">
                   <i class="fa-solid fa-square-poll-horizontal"></i>
                   <h3><a href="">Seaborn</a></h3>
@@ -317,13 +385,13 @@ scientists studying the <strong>origin of thought</strong>.</h2>
             </div>
 
                                       <h5 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4 ms-2 mt-3">Skills</h5>
-                <div class="col-lg-3 col-md-4 ">
+                <div class="col-lg-3 col-md-4 "data-aos="fade-right" data-aos-delay="500">
                   <div class="icon-box">
                     <i class="fa-solid fa-magnifying-glass-chart"></i>
                     <h3><a href="">Data Analysis</a></h3>
                   </div>
                 </div>
-              <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
                 <div class="icon-box">
                   <i class="fa-solid fa-chart-line"></i>
                   <h3><a href="">Advanced Data Visualization</a></h3>
@@ -335,11 +403,11 @@ scientists studying the <strong>origin of thought</strong>.</h2>
   
 </section>
 
-        <section id="team" class="team">
+        <section id="team" class="team bg-diff2">
       <div class="container" id="robo">
  
 <div class="row" >
-                    <h3  data-aos="fade-right" data-aos-delay="300" class="team-title bigger-text3"> <strong>Bio/Psychology</strong></h3>
+                    <h3  data-aos="fade-right" data-aos-delay="300" class="team-title bigger-text3"> <strong>UI/UX Design & Web Development</strong></h3>
       
 
       </div>
@@ -347,11 +415,11 @@ scientists studying the <strong>origin of thought</strong>.</h2>
       <div class="row mt-5">
         <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
             <h3 data-aos="fade-right" data-aos-delay="300" class="team-title">Objective</h3>
-            <p class="text-ali mt-3">Past studies have suggested that rhesus monkeys and tail-winding monkeys are more adaptable to situational changes than humans, and the efficiency of using learned strategies is the cause.  </p>
+            <p class="text-ali mt-3">At that time, prior to the start of internship, the lab web page provided only basic functions and information, and lacked organization. Therefore, to provide a neat and visually appealing design for marketing, we produced logos and 3D graphics that could be applied to: websites, apps, promotional materials, etc.  </p>
 
             <p class="text-ali"> </p>
 
-                        <p class="text-ali">The BPDR team analyzed the data received from the lab to verify this hypothesis and concluded that the hypothesis was valid only on a limited basis. </p>
+                        <p class="text-ali">In particular, it was used for promotional purposes for students who wish to use the data of the research institute.</p>
 
 
 
@@ -364,71 +432,511 @@ scientists studying the <strong>origin of thought</strong>.</h2>
 
               <div class="carousel-inner">
                 <div class="carousel-item active">
-             <img src="assets/img/rb2.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption mt-5 d-none d-md-block">
+             <img src="assets/img/design1.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption mt-5 d-none d-md-block">
                   </div>
                 </div>
                 <div class="carousel-item">
-             <img src="assets/img/rb3.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
+             <img src="assets/img/design2.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
                   </div>
                 </div>
-                                <div class="carousel-item">
+<!--                                 <div class="carousel-item">
              <img src="assets/img/robo1.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
-                  </div>
+                  </div> -->
                 </div>
               </div>
 
             </div>
           </div>
-
-      </div> 
             <div class="row mt-3 features" id="features" >
                           <h3 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4">Highlights</h3>
                           <h5 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4 ms-2">Tools</h5>
-                <div class="col-lg-3 col-md-4 ">
+                <div class="col-lg-3 col-md-4 "data-aos="fade-right" data-aos-delay="500">
                   <div class="icon-box">
-                    <i class="fa-brands fa-python"></i>
-                    <h3><a href="">Python</a></h3>
+                    <i class="fa-solid fa-panorama"></i>
+                    <h3><a href="">Photoshop</a></h3>
                   </div>
                 </div>
-              <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
                 <div class="icon-box">
-                  <i class="fa-solid fa-clone"></i>
-                  <h3><a href="">Numpy</a></h3>
+                  <i class="fa-solid fa-brush"></i>
+                  <h3><a href="">Illustrator</a></h3>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
                 <div class="icon-box">
-                  <i class="fa-solid fa-file-csv"></i>
-                  <h3><a href="">Pandas</a></h3>
+                  <i class="fa-solid fa-cubes"></i>
+                  <h3><a href="">Rhino3D</a></h3>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-                <div class="icon-box">
-                  <i class="fa-solid fa-square-poll-horizontal"></i>
-                  <h3><a href="">Seaborn</a></h3>
-                </div>
-            </div>
+  
 
                                       <h5 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4 ms-2 mt-3">Skills</h5>
-                <div class="col-lg-3 col-md-4 ">
+                <div class="col-lg-3 col-md-4 "data-aos="fade-right" data-aos-delay="500">
                   <div class="icon-box">
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <h3><a href="">Data Analysis</a></h3>
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <h3><a href="">Animation & Motion Design</a></h3>
                   </div>
                 </div>
-              <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
                 <div class="icon-box">
-                  <i class="fa-solid fa-chart-line"></i>
-                  <h3><a href="">Advanced Data Visualization</a></h3>
+                  <i class="fa-brands fa-digital-ocean"></i>
+                  <h3><a href="">Digital Fabrication</a></h3>
                 </div>
               </div>
-
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-solid fa-hands-clapping"></i>
+                  <h3><a href="">Texture Mapping</a></h3>
+                </div>
+              </div>
+                            <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-brands fa-uikit"></i>
+                  <h3><a href="">2D/3D Design Methods
+</a></h3>
+                </div>
+              </div>
             </div>
+      </div> 
+
 
   
 </section>
 
+          <section id="team" class="team">
+      <div class="container" id="robo">
+ 
+<div class="row" >
+                    <h3  data-aos="fade-right" data-aos-delay="300" class="team-title bigger-text3"> <strong>Full-stack App Development</strong></h3>
+      
+
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
+            <h3 data-aos="fade-right" data-aos-delay="300" class="team-title">Objective</h3>
+            <p class="text-ali mt-3">The Primate Portal's data collection is currently limited to apes. So by developing apps that can be used not only at zoos but also in public schools and homes in the United States, it will be easier to record human users' behavior and collect various data. Below we provide three sample developed games.  </p>
+
+            <p class="text-ali"> </p>
+
+                        <!-- <p class="text-ali">In particular, it was used for promotional purposes for students who wish to use the data of the research institute.</p> -->
+
+
+
+          </div>
+
+         <div class="col-lg-5 mt-5" data-aos="fade-up" data-aos-delay="300">
+                         
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+             <img src="assets/img/app1.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption mt-5 d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+             <img src="assets/img/app2.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
+                  </div>
+                </div>
+<!--                                 <div class="carousel-item">
+             <img src="assets/img/robo1.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
+                  </div> -->
+                </div>
+              </div>
+
+            </div>
+          </div>
+            <div class="row mt-3 features" id="features" >
+                          <h3 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4">Highlights</h3>
+                          <h5 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4 ms-2">Tools</h5>
+                <div class="col-lg-3 col-md-4 "data-aos="fade-right" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="fa-brands fa-react"></i>
+                    <h3><a href="">React Native</a></h3>
+                  </div>
+                </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-solid fa-hammer"></i>
+                  <h3><a href="">Xcode</a></h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-brands fa-swift"></i>
+                  <h3><a href="">Swift</a></h3>
+                </div>
+              </div>
   
+
+                                      <h5 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4 ms-2 mt-3">Skills</h5>
+                <div class="col-lg-3 col-md-4 "data-aos="fade-right" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="bi bi-palette"></i>
+                    <h3><a href=""> Material Design UI</a></h3>
+                  </div>
+                </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+                  <h3><a href="">MVC/MVVM design pattern</a></h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-solid fa-earth-europe"></i>
+                  <h3><a href="">API</a></h3>
+                </div>
+              </div>
+<!--                             <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-brands fa-uikit"></i>
+                  <h3><a href="">2D/3D Design Methods
+</a></h3>
+                </div>
+              </div> -->
+            </div>
+      </div> 
+
+
+  
+</section>
+
+          <section id="team" class="team bg-diff2">
+      <div class="container" id="robo">
+ 
+<div class="row" >
+                    <h3  data-aos="fade-right" data-aos-delay="300" class="team-title bigger-text3"> <strong>Game Development with Reinforcement Learning</strong></h3>
+      
+
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
+            <h3 data-aos="fade-right" data-aos-delay="300" class="team-title">Objective</h3>
+            <p class="text-ali mt-3">Various kinds of games are needed to collect information from various angles. In addition to the three games currently used on The Primate Portal, we have developed three separate games to further diversify the data that can be collected.  </p>
+
+            <p class="text-ali">In order to collect data for the study of thought and cognition, the provision of games at the level of each experiment is required. For this purpose, a Tic-tac-toe game was developed so that the difficulty of the game can be adjusted automatically according to the player's skills.</p>
+
+                        <!-- <p class="text-ali">In particular, it was used for promotional purposes for students who wish to use the data of the research institute.</p> -->
+
+
+
+          </div>
+
+         <div class="col-lg-5 mt-5" data-aos="fade-up" data-aos-delay="300">
+                         
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+             <img src="assets/img/game1.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption mt-5 d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+             <img src="assets/img/game2.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
+                  </div>
+                </div>
+<!--                                 <div class="carousel-item">
+             <img src="assets/img/robo1.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
+                  </div> -->
+                </div>
+              </div>
+
+            </div>
+          </div>
+            <div class="row mt-3 features" id="features" >
+                          <h3 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4">Highlights</h3>
+                          <h5 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4 ms-2">Tools</h5>
+                <div class="col-lg-3 col-md-4 "data-aos="fade-right" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3><a href="">C++</a></h3>
+                  </div>
+                </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-brands fa-square-js"></i>
+                  <h3><a href="">JavaScript</a></h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-brands fa-python"></i>
+                  <h3><a href="">Python</a></h3>
+                </div>
+              </div>
+                            <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-joystick"></i>
+
+                  <h3><a href="">SFML</a></h3>
+                </div>
+              </div>
+  
+
+                                      <h5 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4 ms-2 mt-3">Skills</h5>
+                <div class="col-lg-3 col-md-4 "data-aos="fade-right" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-gears"></i>
+                    <h3><a href="">  Game Framework</a></h3>
+                  </div>
+                </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-diagram-3"></i>
+                  <h3><a href="">Game Logic</a></h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-solid fa-brain"></i>
+                  <h3><a href="">Deep Learning</a></h3>
+                </div>
+              </div>
+                            <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-solid fa-q"></i>
+                  <h3><a href="">Q-learning</a></h3>
+                </div>
+              </div>
+<!--                             <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-brands fa-uikit"></i>
+                  <h3><a href="">2D/3D Design Methods
+</a></h3>
+                </div>
+              </div> -->
+            </div>
+      </div> 
+
+
+  
+</section>
+          <section id="team" class="team">
+      <div class="container" id="robo">
+ 
+<div class="row" >
+                    <h3  data-aos="fade-right" data-aos-delay="300" class="team-title bigger-text3"> <strong>Machine Learning & AI</strong></h3>
+      
+
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
+            <h3 data-aos="fade-right" data-aos-delay="300" class="team-title">Objective</h3>
+            <p class="text-ali mt-3">The Primate Portal records computer usage activities to track each monkey's behavior, and researchers identify the objects themselves and record the data. Rather than manually recording the results, the computer recognizes monkey objects directly through the face in real time, increasing the convenience and efficiency of the study. </p>
+
+            <!-- <p class="text-ali">In order to collect data for the study of thought and cognition, the provision of games at the level of each experiment is required. For this purpose, a Tic-tac-toe game was developed so that the difficulty of the game can be adjusted automatically according to the player's skills.</p> -->
+
+                        <!-- <p class="text-ali">In particular, it was used for promotional purposes for students who wish to use the data of the research institute.</p> -->
+
+
+
+          </div>
+
+         <div class="col-lg-5 mt-5" data-aos="fade-up" data-aos-delay="300">
+                         
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+             <img src="assets/img/ai1.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption mt-5 d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+             <img src="assets/img/ai2.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
+                  </div>
+                </div>
+<!--                                 <div class="carousel-item">
+             <img src="assets/img/robo1.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
+                  </div> -->
+                </div>
+              </div>
+
+            </div>
+          </div>
+            <div class="row mt-3 features" id="features" >
+                          <h3 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4">Highlights</h3>
+                          <h5 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4 ms-2">Tools</h5>
+                <div class="col-lg-3 col-md-4 "data-aos="fade-right" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3><a href="">C++</a></h3>
+                  </div>
+                </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-brands fa-square-js"></i>
+                  <h3><a href="">JavaScript</a></h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-brands fa-python"></i>
+                  <h3><a href="">Python</a></h3>
+                </div>
+              </div>
+                            <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-joystick"></i>
+
+                  <h3><a href="">SFML</a></h3>
+                </div>
+              </div>
+  
+
+                                      <h5 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4 ms-2 mt-3">Skills</h5>
+                <div class="col-lg-3 col-md-4 "data-aos="fade-right" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-gears"></i>
+                    <h3><a href="">  Game Framework</a></h3>
+                  </div>
+                </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-diagram-3"></i>
+                  <h3><a href="">Game Logic</a></h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-solid fa-brain"></i>
+                  <h3><a href="">Deep Learning</a></h3>
+                </div>
+              </div>
+                            <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-solid fa-q"></i>
+                  <h3><a href="">Q-learning</a></h3>
+                </div>
+              </div>
+<!--                             <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-brands fa-uikit"></i>
+                  <h3><a href="">2D/3D Design Methods
+</a></h3>
+                </div>
+              </div> -->
+            </div>
+      </div> 
+
+
+  
+</section>
+
+     <section id="team" class="team bg-diff2">
+      <div class="container" id="robo">
+ 
+<div class="row" >
+                    <h3  data-aos="fade-right" data-aos-delay="300" class="team-title bigger-text3"> <strong>Robotics</strong></h3>
+      
+
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
+            <h3 data-aos="fade-right" data-aos-delay="300" class="team-title">Objective</h3>
+            <p class="text-ali mt-3">The mechanical devices currently used in zoos have problems such as limited food size and weak durability that can be used and weak durability. To improve these shortcomings, we designed a new vending machine design using a 3D printer and Arduino. </p>
+
+
+<p class="text-ali"> $4,000/year in savings since development and replacement of four existing food pellet dispenser equipment. Providing a higher variety of food and reward delivery system which enabled static reinforcement training that was previously impossible to implement. Develop a prototype that can be scaled up and to become the foundation due to its practical use at Seneca Park Zoo.</p>
+            <!-- <p class="text-ali">In order to collect data for the study of thought and cognition, the provision of games at the level of each experiment is required. For this purpose, a Tic-tac-toe game was developed so that the difficulty of the game can be adjusted automatically according to the player's skills.</p> -->
+
+                        <!-- <p class="text-ali">In particular, it was used for promotional purposes for students who wish to use the data of the research institute.</p> -->
+
+
+
+          </div>
+
+         <div class="col-lg-5 mt-5" data-aos="fade-up" data-aos-delay="300">
+                         
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+             <img src="assets/img/robo1.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption mt-5 d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+             <img src="assets/img/robo22.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
+                  </div>
+                </div>
+<!--                                 <div class="carousel-item">
+             <img src="assets/img/robo1.jpg" class="d-block w-100 myim image-fluid" alt="...">                  <div class="carousel-caption  mt-5 d-none d-md-block">
+                  </div> -->
+                </div>
+              </div>
+
+            </div>
+          </div>
+            <div class="row mt-3 features" id="features" >
+                          <h3 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4">Highlights</h3>
+                          <h5 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4 ms-2">Tools</h5>
+                <div class="col-lg-3 col-md-4 "data-aos="fade-right" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="bi bi-badge-3d-fill"></i>
+                    <h3><a href="">Fusion 360</a></h3>
+                  </div>
+                </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+<i class="fa-solid fa-cubes-stacked"></i>
+                  <h3><a href="">Solidworks</a></h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-solid fa-infinity"></i>
+                  <h3><a href="">Arduino</a></h3>
+                </div>
+              </div>
+                            <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-brands fa-git"></i>
+
+                  <h3><a href="">Git</a></h3>
+                </div>
+              </div>
+  
+
+                                      <h5 data-aos="fade-right" data-aos-delay="300" class="team-title mb-4 ms-2 mt-3">Skills</h5>
+                <div class="col-lg-3 col-md-4 "data-aos="fade-right" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="bi bi-gear-wide-connected"></i>
+                    <h3><a href="">CAD</a></h3>
+                  </div>
+                </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-solid fa-vr-cardboard"></i>
+                  <h3><a href="">3D Printing</a></h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-solid fa-clock-rotate-left"></i>
+                  <h3><a href="">Reverse Engineering</a></h3>
+                </div>
+              </div>
+
+<!--                             <div class="col-lg-3 col-md-4 mt-4 mt-md-0"data-aos="fade-right" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="fa-brands fa-uikit"></i>
+                  <h3><a href="">2D/3D Design Methods
+</a></h3>
+                </div>
+              </div> -->
+            </div>
+      </div> 
+
+
+  
+</section>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -437,7 +945,7 @@ scientists studying the <strong>origin of thought</strong>.</h2>
 
       <div class="credits">
 
-        Designed by Hygiene Heroes Internship 2022
+        Designed by 3Sigma - The Primate Portal Internship
       </div>
     </div>
   </footer><!-- End Footer -->

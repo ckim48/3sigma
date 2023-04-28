@@ -2235,6 +2235,9 @@ text-align: justify;
 .bg-diff{
   background-color: #F6F6EB;
 }
+.bg-diff2{
+  background-color: rgba(253, 254, 249,0.85);
+}
 
 
 
@@ -2365,4 +2368,10 @@ text-align: justify;
 }
 .text-changed{
 color:darkblue;
+}
+.back-c{
+background-color: rgba(33,33,33,0.3);
+}
+.deliverable{
+  width: 600px;
 }
