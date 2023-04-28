@@ -2373,5 +2373,10 @@ color:darkblue;
 background-color: rgba(33,33,33,0.3);
 }
 .deliverable{
-  width: 600px;
+  width: 80%;
+  height:450px;
+}
+.carousel-img{
+    width: 100%;
+  height:450px;
 }
